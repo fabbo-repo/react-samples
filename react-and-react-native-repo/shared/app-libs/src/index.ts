@@ -1,5 +1,2 @@
-export * from './lib/app-libs';
-
-export function sharedPrint() {
-    return "SHARED ;)"
-}
+export * from './lib/store';
+export * from './lib/counter-reducer';

@@ -8,6 +8,16 @@
 npx create-nx-workspace
 ~~~
 
+## Commands
+
+~~~
+npx react-native doctor
+~~~
+
+~~~
+npm i redux react-redux @reduxjs/toolkit --legacy-peer-deps
+~~~
+
 ## Integrate with editors
 
 Enhance your Nx experience by installing [Nx Console](https://nx.dev/nx-console) for your favorite editor. Nx Console

@@ -1,13 +1,12 @@
-import { sharedPrint } from '@react-and-react-native-repo/app-libs'; //This is how import works
+import { Provider } from 'react-redux';
+import { store } from '@react-and-react-native-repo/app-libs';
+import CounterComponent from './features/counter-component';
 
 export function App() {
   return (
-    <div>
-      <h1>
-        <span>Hello there</span>
-      </h1>
-      <span>{'From shared module -> ' + sharedPrint()}</span>
-    </div>
+    <Provider store={store}>
+      <CounterComponent />
+    </Provider>
   );
 }
 
