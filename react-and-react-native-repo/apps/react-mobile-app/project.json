@@ -1,0 +1,9 @@
+{
+  "name": "react-mobile-app",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/react-mobile-app/src",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project react-mobile-app --web",
+  "targets": {}
+}
